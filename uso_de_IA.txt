@@ -1,0 +1,3 @@
+Sobre o uso de IA nesse trabalho:
+
+Foi utilizada IA apenas para a geração dos códigos de tokenize, data preparation, avaliação e scripts bash de geração.
