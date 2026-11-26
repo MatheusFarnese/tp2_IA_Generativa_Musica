@@ -4,7 +4,7 @@ Este repositório contém a implementação de uma rede neural recorrente (**GRU
 
 ---
 
-## 🛠️ Como Utilizar
+## Como Utilizar
 
 Siga as etapas abaixo para treinar o modelo, gerar novas faixas e avaliar os resultados obtidos.
 
