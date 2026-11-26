@@ -1,0 +1,75 @@
+{
+    "original_folder": "/home/matheus/Downloads/ufmg/tp2/twilight_princess_remi_multitrack/twilight_project/raw",
+    "generated_folder": "/home/matheus/Downloads/ufmg/tp2/twilight_princess_remi_multitrack/twilight_project/generated/temperature/07",
+    "bins": 10,
+    "alpha": 0.5,
+    "time_signature_default": "4/4",
+    "metrics": {
+        "pitch_class_entropy": {
+            "original_statistics": {
+                "n": 191,
+                "mean": 2.886089868549745,
+                "std": 0.41492589554515213,
+                "min": 1.3599770518597558,
+                "max": 3.542933901442888
+            },
+            "generated_statistics": {
+                "n": 200,
+                "mean": 3.12805302672883,
+                "std": 0.26311343716904384,
+                "min": 2.0878466637025537,
+                "max": 3.5440867120663233
+            },
+            "kl_original_generated_bits": 0.4192865335047175,
+            "kl_generated_original_bits": 0.3295932383037624,
+            "js_divergence_bits": 0.08688701740095639
+        },
+        "scale_consistency": {
+            "original_statistics": {
+                "n": 191,
+                "mean": 0.8815441682397479,
+                "std": 0.10485024720294146,
+                "min": 0.6013513513513513,
+                "max": 1.0
+            },
+            "generated_statistics": {
+                "n": 200,
+                "mean": 0.8011472705511704,
+                "std": 0.0773366735755891,
+                "min": 0.6192893401015228,
+                "max": 1.0
+            },
+            "kl_original_generated_bits": 1.0078234119910259,
+            "kl_generated_original_bits": 0.6799382005605719,
+            "js_divergence_bits": 0.18752769818809062
+        },
+        "groove_consistency": {
+            "original_statistics": {
+                "n": 154,
+                "mean": 0.9966820663749957,
+                "std": 0.004819504361731666,
+                "min": 0.9709497549019608,
+                "max": 0.9999565972222222
+            },
+            "generated_statistics": {
+                "n": 162,
+                "mean": 0.9605037718342334,
+                "std": 0.01242519763680728,
+                "min": 0.9204545454545454,
+                "max": 0.9923611111111111
+            },
+            "kl_original_generated_bits": 4.976510310674472e-05,
+            "kl_generated_original_bits": 4.898018670636121e-05,
+            "js_divergence_bits": 1.2341956222290933e-05
+        }
+    },
+    "errors": {
+        "original": [
+            {
+                "file": "raw/Faron_Woods.mid",
+                "error": "Could not decode key with 0 flats and mode 154"
+            }
+        ],
+        "generated": []
+    }
+}

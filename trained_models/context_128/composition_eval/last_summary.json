@@ -1,0 +1,14 @@
+{
+  "checkpoint": "runs/gru/context_128/last_model.pt",
+  "checkpoint_epoch": 48,
+  "n_compositions": 19,
+  "n_groups": 19,
+  "n_windows": 1298,
+  "total_tokens": 164917,
+  "micro_loss": 4.473860770228838,
+  "micro_accuracy": 0.36771224312836154,
+  "macro_composition_loss": 3.921154271151502,
+  "macro_composition_accuracy": 0.3563035737913228,
+  "macro_group_loss": 3.921154271151502,
+  "macro_group_accuracy": 0.3563035737913228
+}

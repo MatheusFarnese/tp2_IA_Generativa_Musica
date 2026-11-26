@@ -1,0 +1,127 @@
+{
+  "processed_dir": "processed",
+  "output_dir": "prepared",
+  "vocab_size": 502,
+  "pad_id": 502,
+  "loading_report": {
+    "train": {
+      "files_found": 154,
+      "files_loaded": 154,
+      "files_skipped": []
+    },
+    "val": {
+      "files_found": 19,
+      "files_loaded": 19,
+      "files_skipped": []
+    },
+    "test": {
+      "files_found": 19,
+      "files_loaded": 19,
+      "files_skipped": []
+    }
+  },
+  "contexts": {
+    "128": {
+      "train_stride": 64,
+      "validation_test_stride": 128,
+      "train": {
+        "songs": 154,
+        "windows": 13395,
+        "total_valid_targets": 1714414,
+        "padding_positions": 146,
+        "min_windows_per_song": 1,
+        "max_windows_per_song": 492,
+        "songs_without_windows": 0,
+        "output_file": "prepared/context_128/train.pt"
+      },
+      "val": {
+        "songs": 19,
+        "windows": 1298,
+        "total_valid_targets": 164917,
+        "padding_positions": 1227,
+        "min_windows_per_song": 3,
+        "max_windows_per_song": 378,
+        "songs_without_windows": 0,
+        "output_file": "prepared/context_128/val.pt"
+      },
+      "test": {
+        "songs": 19,
+        "windows": 1249,
+        "total_valid_targets": 158389,
+        "padding_positions": 1483,
+        "min_windows_per_song": 4,
+        "max_windows_per_song": 261,
+        "songs_without_windows": 0,
+        "output_file": "prepared/context_128/test.pt"
+      }
+    },
+    "256": {
+      "train_stride": 128,
+      "validation_test_stride": 256,
+      "train": {
+        "songs": 154,
+        "windows": 6667,
+        "total_valid_targets": 1705564,
+        "padding_positions": 1188,
+        "min_windows_per_song": 1,
+        "max_windows_per_song": 246,
+        "songs_without_windows": 0,
+        "output_file": "prepared/context_256/train.pt"
+      },
+      "val": {
+        "songs": 19,
+        "windows": 653,
+        "total_valid_targets": 164917,
+        "padding_positions": 2251,
+        "min_windows_per_song": 2,
+        "max_windows_per_song": 189,
+        "songs_without_windows": 0,
+        "output_file": "prepared/context_256/val.pt"
+      },
+      "test": {
+        "songs": 19,
+        "windows": 628,
+        "total_valid_targets": 158389,
+        "padding_positions": 2379,
+        "min_windows_per_song": 2,
+        "max_windows_per_song": 131,
+        "songs_without_windows": 0,
+        "output_file": "prepared/context_256/test.pt"
+      }
+    },
+    "512": {
+      "train_stride": 256,
+      "validation_test_stride": 512,
+      "train": {
+        "songs": 154,
+        "windows": 3301,
+        "total_valid_targets": 1685064,
+        "padding_positions": 5048,
+        "min_windows_per_song": 1,
+        "max_windows_per_song": 123,
+        "songs_without_windows": 0,
+        "output_file": "prepared/context_512/train.pt"
+      },
+      "val": {
+        "songs": 19,
+        "windows": 331,
+        "total_valid_targets": 164917,
+        "padding_positions": 4555,
+        "min_windows_per_song": 1,
+        "max_windows_per_song": 95,
+        "songs_without_windows": 0,
+        "output_file": "prepared/context_512/val.pt"
+      },
+      "test": {
+        "songs": 19,
+        "windows": 321,
+        "total_valid_targets": 158389,
+        "padding_positions": 5963,
+        "min_windows_per_song": 1,
+        "max_windows_per_song": 66,
+        "songs_without_windows": 0,
+        "output_file": "prepared/context_512/test.pt"
+      }
+    }
+  }
+}

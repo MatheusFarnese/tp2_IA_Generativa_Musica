@@ -1,0 +1,16 @@
+{
+  "tokenization": "REMI+",
+  "miditok_version_note": "Pin miditok==3.0.1 for reproducibility",
+  "single_synchronized_stream": true,
+  "use_programs": true,
+  "one_token_stream_for_programs": true,
+  "use_time_signatures": true,
+  "vocabulary_size": 502,
+  "files_tokenized": 192,
+  "files_failed": 0,
+  "total_tokens": 1185789,
+  "mean_tokens_per_file": 6175.984375,
+  "median_tokens_per_file": 3475,
+  "min_tokens": 74,
+  "max_tokens": 48327
+}

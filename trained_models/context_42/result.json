@@ -1,0 +1,10 @@
+{
+  "context_length": 42,
+  "best_epoch": 62,
+  "best_validation_loss": 0.5369724414641659,
+  "test_loss": 3.344240641131664,
+  "test_accuracy": 0.35424808540997166,
+  "test_valid_tokens": 158389,
+  "epochs_trained": 72,
+  "best_checkpoint": "runs/gru/context_42/best_model.pt"
+}

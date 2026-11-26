@@ -1,0 +1,79 @@
+{
+    "original_folder": "/home/matheus/Downloads/ufmg/tp2/twilight_princess_remi_multitrack/twilight_project/raw",
+    "generated_folder": "/home/matheus/Downloads/ufmg/tp2/twilight_princess_remi_multitrack/twilight_project/generated/beam",
+    "bins": 10,
+    "alpha": 0.5,
+    "time_signature_default": "4/4",
+    "metrics": {
+        "pitch_class_entropy": {
+            "original_statistics": {
+                "n": 191,
+                "mean": 2.886089868549745,
+                "std": 0.41492589554515213,
+                "min": 1.3599770518597558,
+                "max": 3.542933901442888
+            },
+            "generated_statistics": {
+                "n": 200,
+                "mean": 3.0852766928173394,
+                "std": 0.0,
+                "min": 3.0852766928173394,
+                "max": 3.0852766928173394
+            },
+            "kl_original_generated_bits": 3.544675486270258,
+            "kl_generated_original_bits": 1.4486038012651419,
+            "js_divergence_bits": 0.41135216381062967
+        },
+        "scale_consistency": {
+            "original_statistics": {
+                "n": 191,
+                "mean": 0.8815441682397479,
+                "std": 0.10485024720294146,
+                "min": 0.6013513513513513,
+                "max": 1.0
+            },
+            "generated_statistics": {
+                "n": 200,
+                "mean": 0.845945945945946,
+                "std": 0.0,
+                "min": 0.845945945945946,
+                "max": 0.845945945945946
+            },
+            "kl_original_generated_bits": 4.402135218765309,
+            "kl_generated_original_bits": 1.7030193487466883,
+            "js_divergence_bits": 0.472672728587488
+        },
+        "groove_consistency": {
+            "original_statistics": {
+                "n": 154,
+                "mean": 0.9966820663749957,
+                "std": 0.004819504361731666,
+                "min": 0.9709497549019608,
+                "max": 0.9999565972222222
+            },
+            "generated_statistics": {
+                "n": 200,
+                "mean": 0.9580965909090909,
+                "std": 0.0,
+                "min": 0.9580965909090909,
+                "max": 0.9580965909090909
+            },
+            "kl_original_generated_bits": 0.0012431248748056688,
+            "kl_generated_original_bits": 0.0011446968002967496,
+            "js_divergence_bits": 0.000297697261172273
+        }
+    },
+    "errors": {
+        "original": [
+            {
+                "file": "raw/Faron_Woods.mid",
+                "error": "Could not decode key with 0 flats and mode 154"
+            },
+            {
+                "file": "raw/Midnas_Theme.mid",
+                "error": "data byte must be in range 0..127"
+            }
+        ],
+        "generated": []
+    }
+}

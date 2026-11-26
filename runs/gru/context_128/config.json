@@ -1,0 +1,16 @@
+{
+  "context_length": 128,
+  "vocab_size": 502,
+  "pad_id": 502,
+  "embedding_dim": 128,
+  "hidden_size": 256,
+  "num_layers": 2,
+  "dropout": 0.2,
+  "batch_size": 16,
+  "learning_rate": 0.001,
+  "weight_decay": 1e-05,
+  "gradient_clip": 1.0,
+  "seed": 42,
+  "sampler": "equal expected sampling weight per song",
+  "loss": "token-level cross entropy; padding ignored"
+}
